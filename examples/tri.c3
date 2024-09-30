@@ -41,7 +41,7 @@ float [] indices = {
 	1, 2, 3	
 };
 
-fn int main()   
+fn int main() @extern("main") @wasm
 {
 	const int WIDTH = 1280;
 	const int HEIGHT = 720;
